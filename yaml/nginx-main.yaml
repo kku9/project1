@@ -1,21 +1,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: myhomegym-login-web
+  name: myhomegym-main
   labels:
-    app: myhomegym-login
+    app: myhomegym-main
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: myhomegym-login
+      app: myhomegym-main
   template:
     metadata:
       labels:
-        app: myhomegym-login
+        app: myhomegym-main
     spec:
       containers:
-      - image: kku9/web-roll:8
+      - image: kku9/nginx-web:v1.21
         name: web
         ports:
         - containerPort: 80
@@ -24,13 +24,22 @@ spec:
             cpu: "250m"
             memory: "250Mi"
           limits:
-            memory: "250Mi"
             cpu: "250m"
+            memory: "250Mi"
+        livenessProbe:
+          httpGet:
+            path: /
+            port: 80
+          initialDelaySeconds: 15
+          periodSeconds: 10
+          timeoutSeconds: 5
+          failureThreshold: 3
+          successThreshold: 1
 ---
 apiVersion: v1
 kind: Service
 metadata:
-  name: svc-login-web
+  name: svc-main
 spec:
   type: NodePort
   ports:
