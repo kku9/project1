@@ -1,7 +1,7 @@
 apiVersion: autoscaling/v1
 kind: HorizontalPodAutoscaler
 metadata:
-  name: hpe-product
+  name: hpa-product
 spec:
   maxReplicas: 10
   minReplicas: 2
