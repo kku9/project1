@@ -48,4 +48,4 @@ spec:
     targetPort: 80
     nodePort: 30100
   selector:
-    app: myhomegym-login
+    app: myhomegym-main
