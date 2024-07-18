@@ -1,0 +1,42 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: myhomegym-login-web
+  labels:
+    app: myhomegym-login
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: myhomegym-login
+  template:
+    metadata:
+      labels:
+        app: myhomegym-login
+    spec:
+      containers:
+      - image: kku9/web-roll:8
+        name: web
+        ports:
+        - containerPort: 80
+        resources:
+          requests:
+            cpu: "250m"
+            memory: "250Mi"
+          limits:
+            memory: "250Mi"
+            cpu: "250m"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: svc-login-web
+spec:
+  type: NodePort
+  ports:
+  - protocol: TCP
+    port: 80
+    targetPort: 80
+    nodePort: 30100
+  selector:
+    app: myhomegym-login

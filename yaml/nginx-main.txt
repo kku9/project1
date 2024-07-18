@@ -1,0 +1,51 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: myhomegym-product-web
+  labels:
+    app: myhomegym-product
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: myhomegym-product
+  template:
+    metadata:
+      labels:
+        app: myhomegym-product
+    spec:
+      containers:
+      - image: kku9/nginx-product-web:v1.0
+        name: web-product
+        ports:
+        - containerPort: 80
+        resources:
+          requests:
+            cpu: "250m"
+            memory: "250Mi"
+          limits:
+            memory: "250Mi"
+            cpu: "250m"
+        livenessProbe:
+          httpGet:
+            path: /
+            port: 80
+          initialDelaySeconds: 15
+          periodSeconds: 10
+          timeoutSeconds: 5
+          failureThreshold: 3
+          successThreshold: 1
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: svc-product-web
+spec:
+  type: NodePort
+  ports:
+  - protocol: TCP
+    port: 80
+    targetPort: 80
+    nodePort: 30300
+  selector:
+    app: myhomegym-product
