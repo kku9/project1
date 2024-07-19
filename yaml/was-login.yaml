@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
       - name: was
-        image: kku9/web-roll:20
+        image: kku9/was-login:8
         ports:
         - containerPort: 8080
         resources:
@@ -33,6 +33,15 @@ spec:
           limits:
             cpu: "250m"
             memory: "500Mi"
+        livenessProbe:
+          httpGet:
+            path: /
+            port: 80
+          initialDelaySeconds: 30
+          periodSeconds: 15
+          timeoutSeconds: 5
+          failureThreshold: 3
+          successThreshold: 1  
 
 ---
 apiVersion: v1
