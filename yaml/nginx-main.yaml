@@ -15,7 +15,7 @@ spec:
         app: nginx-main
     spec:
       containers:
-      - image: kku9/nginx-web:v1.21
+      - image: kku9/nginx-main:v1.20
         name: web
         ports:
         - containerPort: 80
