@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
       - name: was
-        image: kku9/was-main:9
+        image: kku9/web-roll:20
         ports:
         - containerPort: 8080
         resources:
