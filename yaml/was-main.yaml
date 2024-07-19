@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: tomcat-main
   labels:
-    app: myhomegym-was
+    app: tomcat-main
 spec:
   progressDeadlineSeconds: 600
   revisionHistoryLimit: 10
@@ -15,11 +15,11 @@ spec:
   replicas: 2
   selector:
     matchLabels:
-      app: myhomegym-was
+      app: tomcat-main
   template:
     metadata:
       labels:
-        app: myhomegym-was
+        app: tomcat-main
     spec:
       containers:
       - name: was
@@ -55,4 +55,4 @@ spec:
   - port: 8080
     targetPort: 8080
   selector:
-    app: myhomegym-was
+    app: tomcat-main
