@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: songtaehoon/nginx-sign:v1.20
+        image: kku9/nginx-sign:v1.20
         ports:
         - containerPort: 80
         resources:
