@@ -1,7 +1,7 @@
 apiVersion: autoscaling/v1
 kind: HorizontalPodAutoscaler
 metadata:
-  name: hpa-was
+  name: hpa-was-login
 spec:
   maxReplicas: 10
   minReplicas: 2
