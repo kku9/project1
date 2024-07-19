@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: kku9/nginx-login:v1.20
+        image: kku9/nginx-login:v1.22
         ports:
         - containerPort: 80
         resources:
