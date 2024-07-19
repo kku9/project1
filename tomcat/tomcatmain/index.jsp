@@ -119,7 +119,7 @@
             conn = DriverManager.getConnection(dbUrl, dbUser, dbPassword);
 
             // SQL 쿼리
-            String sql = "SELECT price FROM products1 WHERE name = ?";
+            String sql = "SELECT price FROM products3 WHERE name = ?";
             pstmt = conn.prepareStatement(sql);
             String[] productNames = {"pro1", "pro2", "tum", "run", "heaven", "dumb", "form", "pull", "push"};
 
@@ -140,46 +140,55 @@
     %>
     <div class="products">
         <div class="product-item">
+            <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
             <img src="item1.jpg" alt="Whey Protein">
             <p>Whey Protein</p>
             <p class="price"><%= df.format(prices.get("pro1")) %>원</p>
         </div>
         <div class="product-item">
+            <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
             <img src="item2.jpg" alt="Exten Pro Whey Protein">
             <p>Exten Pro Whey Protein</p>
             <p class="price"><%= df.format(prices.get("pro2")) %>원</p>
         </div>
         <div class="product-item">
+            <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
             <img src="item3.jpg" alt="Monsterzym Shaker">
             <p>Monsterzym Shaker</p>
             <p class="price"><%= df.format(prices.get("tum")) %>원</p>
         </div>
         <div class="product-item">
+            <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
             <img src="item4.jpg" alt="Running Machine">
             <p>Running Machine</p>
             <p class="price"><%= df.format(prices.get("run")) %>원</p>
         </div>
         <div class="product-item">
+            <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
             <img src="item5.jpg" alt="Stairway To Heaven">
             <p>Stairway To Heaven</p>
             <p class="price"><%= df.format(prices.get("heaven")) %>원</p>
         </div>
         <div class="product-item">
+            <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
             <img src="item6.jpg" alt="Dumbbell">
             <p>Dumbbell</p>
             <p class="price"><%= df.format(prices.get("dumb")) %>원</p>
         </div>
         <div class="product-item">
+            <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
             <img src="item7.jpg" alt="Form roller">
             <p>Form roller</p>
             <p class="price"><%= df.format(prices.get("form")) %>원</p>
         </div>
         <div class="product-item">
+            <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
             <img src="item8.jpg" alt="Pull up Bar">
             <p>Pull up Bar</p>
             <p class="price"><%= df.format(prices.get("pull")) %>원</p>
         </div>
         <div class="product-item">
+            <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
             <img src="item9.jpg" alt="Push up Bar">
             <p>Push up Bar</p>
             <p class="price"><%= df.format(prices.get("push")) %>원</p>
