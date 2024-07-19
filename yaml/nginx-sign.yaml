@@ -1,0 +1,42 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx-sign
+  labels:
+    app: nginx-sign
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: nginx-sign
+  template:
+    metadata:
+      labels:
+        app: nginx-sign
+    spec:
+      containers:
+      - name: nginx
+        image: songtaehoon/nginx-web:v1.20
+        ports:
+        - containerPort: 80
+        resources:
+          requests:
+            cpu: "250m"
+            memory: "250Mi"
+          limits:
+            cpu: "250m"
+            memory: "250Mi"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: svc-sign
+spec:
+  type: NodePort
+  ports:
+  - port: 80
+    targetPort: 80
+    nodePort: 30200
+    protocol: TCP
+  selector:
+    app: nginx-sign
