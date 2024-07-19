@@ -47,7 +47,7 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: svc-was
+  name: svc-was-main
 spec:
   type: ClusterIP
   clusterIP: 10.110.0.100
