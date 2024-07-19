@@ -50,7 +50,7 @@ metadata:
   name: svc-was-login
 spec:
   type: ClusterIP
-  clusterIP: 10.110.0.100
+  clusterIP: 10.110.0.101
   ports:
   - port: 8080
     targetPort: 8080
