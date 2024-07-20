@@ -21,6 +21,8 @@ spec:
       labels:
         app: tomcat-login
     spec:
+      nodeSelector:
+        disktype: worker2  # 노드 셀렉터
       containers:
       - name: was
         image: kku9/was-login:8
