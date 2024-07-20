@@ -30,8 +30,8 @@ spec:
           httpGet:
             path: /
             port: 80
-          initialDelaySeconds: 60
-          periodSeconds: 30
+          initialDelaySeconds: 90
+          periodSeconds: 45
           timeoutSeconds: 5
           failureThreshold: 3
           successThreshold: 1  
