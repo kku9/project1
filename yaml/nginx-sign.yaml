@@ -43,11 +43,11 @@ kind: Service
 metadata:
   name: svc-sign
 spec:
-  type: ClusterIP
-  clusterIP: 10.110.0.152
+  type: NodePort
   ports:
   - port: 80
     targetPort: 80
+    nodePort: 30300
     protocol: TCP
   selector:
     app: nginx-sign
