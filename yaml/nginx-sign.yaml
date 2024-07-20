@@ -42,14 +42,10 @@ apiVersion: v1
 kind: Service
 metadata:
   name: svc-sign
-  labels:
-    app: nginx-sign
-spec:
-  type: NodePort
+  type: ClusterIP
+  clusterIP: 10.110.0.112
   ports:
   - port: 80
     targetPort: 80
-    nodePort: 30300
-    protocol: TCP
   selector:
     app: nginx-sign
