@@ -21,6 +21,8 @@ spec:
       labels:
         app: tomcat-main
     spec:
+      nodeSelector:
+        disktype: worker1  # 노드 셀렉터
       containers:
       - name: was
         image: kku9/web-roll:14
