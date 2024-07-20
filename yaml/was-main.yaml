@@ -28,7 +28,7 @@ spec:
         image: kku9/web-roll:14
        volumeMounts:
         - name: data
-          mountPath: /backup/tomcat/main
+          mountPath: /backup/tomcat/tomcatmain
         ports:
         - containerPort: 8080
         resources:
