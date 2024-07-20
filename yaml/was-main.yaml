@@ -52,10 +52,10 @@ kind: Service
 metadata:
   name: svc-was-main
 spec:
-  type: ClusterIP
-  clusterIP: 10.110.0.100
+  type: NodePort
   ports:
   - port: 8080
     targetPort: 8080
-  selector:
+    protocol: TCP
+    selector:
     app: tomcat-main
