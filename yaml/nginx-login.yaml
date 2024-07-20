@@ -15,7 +15,7 @@ spec:
         app: nginx-login
     spec:
       nodeSelector:
-        disktype: worker2  # 노드 셀렉터
+        disktype: worker1  # 노드 셀렉터
       containers:
       - name: nginx
         image: kku9/nginx-login:v1.22  # 이미지 위치 수정
