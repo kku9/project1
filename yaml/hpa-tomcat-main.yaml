@@ -4,7 +4,7 @@ metadata:
   name: hpa-was-main
 spec:
   maxReplicas: 10
-  minReplicas: 2
+  minReplicas: 3
   scaleTargetRef:
     apiVersion: apps/v1
     kind: Deployment
