@@ -19,9 +19,6 @@ spec:
       containers:
       - name: nginx
         image: kku9/nginx-main:v1.20  # 이미지 위치 수정
-        volumeMounts:
-        - name: data
-          mountPath: /nginx/main
         ports:
         - containerPort: 80
         resources:
@@ -40,11 +37,7 @@ spec:
           timeoutSeconds: 10
           failureThreshold: 5
           successThreshold: 1
-      volumes:
-      - name: data
-        hostPath:
-          path: /web
-          type: Directory
+
 ---
 apiVersion: v1
 kind: Service
