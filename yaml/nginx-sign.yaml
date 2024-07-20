@@ -14,9 +14,14 @@ spec:
       labels:
         app: nginx-sign
     spec:
+      nodeSelector:
+        disktype: worker3  # 노드 셀렉터
       containers:
       - name: nginx
-        image: kku9/nginx-sign:v1.22
+        image: kku9/nginx-sign:v1.22  # 이미지 위치 수정
+        volumeMounts:
+        - name: data
+          mountPath: /backup/nginx/sign
         ports:
         - containerPort: 80
         resources:
@@ -30,22 +35,29 @@ spec:
           httpGet:
             path: /
             port: 80
-          initialDelaySeconds: 90
-          periodSeconds: 45
-          timeoutSeconds: 5
-          failureThreshold: 3
-          successThreshold: 1  
+          initialDelaySeconds: 60
+          periodSeconds: 15
+          timeoutSeconds: 10
+          failureThreshold: 5
+          successThreshold: 1
+      volumes:
+      - name: data
+        hostPath:
+          path: /web
+          type: Directory
 ---
 apiVersion: v1
 kind: Service
 metadata:
   name: svc-sign
+  labels:
+    app: nginx-sign
 spec:
   type: NodePort
   ports:
   - port: 80
     targetPort: 80
-    nodePort: 30200
+    nodePort: 30300
     protocol: TCP
   selector:
     app: nginx-sign
