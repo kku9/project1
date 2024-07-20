@@ -44,11 +44,11 @@ kind: Service
 metadata:
   name: svc-login
 spec:
-  type: ClusterIP
-  clusterIP: 10.110.0.151
+  type: NodePort
   ports:
   - port: 80
     targetPort: 80
+    nodePort: 30200
     protocol: TCP
   selector:
     app: nginx-login
