@@ -44,11 +44,11 @@ kind: Service
 metadata:
   name: svc-main
 spec:
-  type: ClusterIP
-  clusterIP: 10.110.0.150
+  type: NodePort
   ports:
   - port: 80
     targetPort: 80
+    nodePort: 30100
     protocol: TCP
   selector:
     app: nginx-main
