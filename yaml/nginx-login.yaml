@@ -43,6 +43,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: svc-login
+spec:
   type: ClusterIP
   clusterIP: 10.110.0.151
   ports:
