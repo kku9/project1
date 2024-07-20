@@ -21,7 +21,7 @@ spec:
         image: kku9/nginx-sign:v1.22  # 이미지 위치 수정
         volumeMounts:
         - name: data
-          mountPath: /backup/nginx/sign
+          mountPath: /nginx/sign
         ports:
         - containerPort: 80
         resources:
