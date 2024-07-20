@@ -21,7 +21,7 @@ spec:
         image: kku9/nginx-main:v1.20  # 이미지 위치 수정
         volumeMounts:
         - name: data
-          mountPath: /backup/nginx/main
+          mountPath: /nginx/main
         ports:
         - containerPort: 80
         resources:
