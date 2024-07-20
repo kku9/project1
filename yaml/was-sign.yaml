@@ -21,6 +21,8 @@ spec:
       labels:
         app: tomcat-sign
     spec:
+      nodeSelector:
+        disktype: worker3  # 노드 셀렉터
       containers:
       - name: was
         image: kku9/was-sign:8
