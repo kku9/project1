@@ -33,7 +33,7 @@ spec:
             path: /
             port: 80
           initialDelaySeconds: 60
-          periodSeconds: 15
+          periodSeconds: 30
           timeoutSeconds: 10
           failureThreshold: 5
           successThreshold: 1
