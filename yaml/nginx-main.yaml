@@ -45,7 +45,7 @@ metadata:
   name: svc-main
 spec:
   type: ClusterIP
-  clusterIP: 10.110.0.152
+  clusterIP: 10.110.0.150
   ports:
   - port: 80
     targetPort: 80
