@@ -15,7 +15,7 @@ spec:
         app: nginx-sign
     spec:
       nodeSelector:
-        disktype: worker1  # 노드 셀렉터
+        disktype: worker2  # 노드 셀렉터
       containers:
       - name: nginx
         image: kku9/nginx-sign:v1.20  # 이미지 위치 수정
