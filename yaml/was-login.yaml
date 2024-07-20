@@ -28,7 +28,7 @@ spec:
         image: kku9/was-login:8
         volumeMounts:
         - name: data
-          mountPath: /backup/tomcat/login
+          mountPath: /backup/tomcat/tomcatlogin
         ports:
         - containerPort: 8080
         resources:
