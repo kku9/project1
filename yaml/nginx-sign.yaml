@@ -43,9 +43,10 @@ kind: Service
 metadata:
   name: svc-sign
   type: ClusterIP
-  clusterIP: 10.110.0.112
+  clusterIP: 10.110.0.152
   ports:
   - port: 80
     targetPort: 80
+    protocol: TCP
   selector:
     app: nginx-sign
