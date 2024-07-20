@@ -43,7 +43,12 @@ spec:
           periodSeconds: 60
           timeoutSeconds: 10
           failureThreshold: 5
-          successThreshold: 1  
+          successThreshold: 1 
+        volumes:
+        - name: data
+          hostPath:
+            path: /web
+            type: Directory
 
 ---
 apiVersion: v1
