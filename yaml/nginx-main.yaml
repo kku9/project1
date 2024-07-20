@@ -18,7 +18,7 @@ spec:
         disktype: worker1  # 노드 셀렉터
       containers:
       - name: nginx
-        image: kku9/nginx-main:v1.40  # 이미지 위치 수정
+        image: kku9/nginx-main:v1.42  # 이미지 위치 수정
         ports:
         - containerPort: 80
         resources:
