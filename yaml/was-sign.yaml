@@ -28,7 +28,7 @@ spec:
         image: kku9/was-sign:8
         volumeMounts:
         - name: data
-          mountPath: /backup/tomcat/signup
+          mountPath: /backup/tomcat/tomcatsignup
         ports:
         - containerPort: 8080
         resources:
