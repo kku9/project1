@@ -22,7 +22,7 @@ spec:
         app: tomcat-login
     spec:
       nodeSelector:
-        disktype: worker2  # 노드 셀렉터
+        disktype: worker3  # 노드 셀렉터
       containers:
       - name: was
         image: kku9/was-login:8
@@ -31,10 +31,10 @@ spec:
         resources:
           requests:
             cpu: "250m"
-            memory: "500Mi"
+            memory: "300Mi"
           limits:
             cpu: "250m"
-            memory: "500Mi"
+            memory: "300Mi"
         livenessProbe:
           httpGet:
             path: /
