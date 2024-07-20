@@ -12,7 +12,7 @@ spec:
       maxSurge: 25%
       maxUnavailable: 25%
     type: RollingUpdate
-  replicas: 2
+  replicas: 3
   selector:
     matchLabels:
       app: tomcat-main
@@ -25,7 +25,7 @@ spec:
         disktype: worker2  # 노드 셀렉터
       containers:
       - name: was
-        image: kku9/web-roll:14
+        image: kku9/was-sure:8
         ports:
         - containerPort: 8080
         resources:
