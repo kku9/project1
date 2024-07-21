@@ -26,6 +26,10 @@ spec:
       containers:
       - name: was
         image: kku9/was-sure:9
+        volumeMounts:
+        - name: data
+          mountPath: /usr/share/nginx/html
+
         ports:
         - containerPort: 8080
         resources:
@@ -44,6 +48,11 @@ spec:
           timeoutSeconds: 10
           failureThreshold: 5
           successThreshold: 1
+        volumes:
+        - name: data
+          hostPath:
+            path: /web
+
 
 ---
 apiVersion: v1
