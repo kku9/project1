@@ -28,8 +28,7 @@ spec:
         image: kku9/was-sure:9
         volumeMounts:
         - name: data
-          mountPath: /usr/share/nginx/html
-
+          mountPath: /usr
         ports:
         - containerPort: 8080
         resources:
