@@ -21,7 +21,7 @@ spec:
         image: kku9/nginx-login:v1.48  # 이미지 위치 수정
         volumMounts:
         - name: data
-          mountPath: /usr/share/nginx/html
+          mountPath: /usr
         ports:
         - containerPort: 80
         resources:
