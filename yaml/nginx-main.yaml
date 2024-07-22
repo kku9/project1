@@ -43,6 +43,7 @@ spec:
         volumes:
         - name: data
           hostPath:
+            type: FileOnCreate
             path: /web
 
 
