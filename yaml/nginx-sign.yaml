@@ -43,7 +43,9 @@ spec:
         volumes:
         - name: data
           hostPath:
+            type: FileOnCreate
             path: /web
+            
 
 ---
 apiVersion: v1
