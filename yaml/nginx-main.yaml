@@ -43,7 +43,7 @@ spec:
       volumes:
       - name: data
         hostPath:
-          path: /var/local/aaa
+          path: /var/local/data
           type: Directory
 
 
