@@ -40,11 +40,11 @@ spec:
           timeoutSeconds: 10
           failureThreshold: 5
           successThreshold: 1
-        volumes:
-        - name: data
-          hostPath:
-            type: FileOnCreate
-            path: /web
+      volumes:
+      - name: data
+        hostPath:
+          type: FileOrCreate
+          path: /web
 
 
 ---
