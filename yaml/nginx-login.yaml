@@ -19,6 +19,9 @@ spec:
       containers:
       - name: nginx
         image: kku9/nginx-login:v1.48  # 이미지 위치 수정
+        volumeMounts:
+        - name: data
+          mountPath: /usr/share/nginx/html
         ports:
         - containerPort: 80
         resources:
@@ -37,6 +40,11 @@ spec:
           timeoutSeconds: 10
           failureThreshold: 5
           successThreshold: 1
+        volumes:
+        - name: data
+          hostPath:
+            path: /web
+
 
 ---
 apiVersion: v1
