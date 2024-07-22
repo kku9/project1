@@ -19,6 +19,9 @@ spec:
       containers:
       - name: nginx
         image: kku9/nginx-main:v1.48  # 이미지 위치 수정
+        volumeMounts:
+        - name: data
+          mountPath: /usr/share/nginx/html
         ports:
         - containerPort: 80
         resources:
