@@ -21,7 +21,7 @@ spec:
         image: kku9/nginx-sign:v1.48  # 이미지 위치 수정
         volumeMounts:
         - name: data
-          mountPath: /var/local/aaa
+          mountPath: /usr/share/nginx/html
         ports:
         - containerPort: 80
         resources:
@@ -44,7 +44,7 @@ spec:
       - name: data
         hostPath:
           path: /var/local/data
-          type: DirectoryOrCreate
+          type: Directory
             
 
 ---
