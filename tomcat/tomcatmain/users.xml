@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <user>
+        <id>1</id>
+        <username>imyc</username>
+        <password>$2a$10$EXAMPLEPASSWORDHASH0000</password>
+    </user>
+    <user>
+        <id>2</id>
+        <username>guest</username>
+        <password>$2a$10$EXAMPLEPASSWORDHASHguest123</password>
+    </user>
+</data>
