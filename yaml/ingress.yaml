@@ -1,0 +1,34 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: myhomegym-web
+  annotations:
+    ingressclass.kubernetes.io/is-default-class: "true"
+
+spec:
+  ingressClassName: nginx  # nginx-ingress 컨트롤러의 클래스 이름
+  rules:
+  - host: www.watersooo.shop
+  - http:
+      paths:
+      - path: /login
+        pathType: Prefix
+        backend:
+          service:
+            name: svc-login
+            port:
+              number: 80
+      - path: /signup  # 요청 패스
+        pathType: Prefix  # 패스 유형
+        backend:
+          service:
+            name: svc-sign  # 서비스 이름
+            port:
+              number: 80 # 서비스 포트
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: svc-main
+            port:
+              number: 80
