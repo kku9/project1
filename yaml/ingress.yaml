@@ -11,14 +11,14 @@ spec:
   - host: www.watersooo.shop
   - http:
       paths:
-      - path: /login
+      - path: /login.jsp
         pathType: Prefix
         backend:
           service:
             name: svc-login
             port:
               number: 80
-      - path: /signup  # 요청 패스
+      - path: /signup.jsp  # 요청 패스
         pathType: Prefix  # 패스 유형
         backend:
           service:
