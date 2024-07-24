@@ -25,7 +25,7 @@ spec:
         disktype: worker3  # 노드 셀렉터
       containers:
       - name: was
-        image: kku9/was-sure:10
+        image: kku9/was-sure:11
         ports:
         - containerPort: 8080
         resources:
