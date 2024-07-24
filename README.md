@@ -17,3 +17,14 @@
 
 ##팀원 소개
 
+| 이름 | 구경범 | 노현수 | 장정원 |
+| --- | --- | --- | --- |
+|  | <img src=”https://search.pstatic.net/sunny?src=https%3A%2F%2Fstatic.wikia.nocookie.net%2Fpokemon%2Fimages%2F0%2F0a%2F%25EA%25B9%259C%25EC%25A7%2580%25EA%25B3%25B0_%25EA%25B3%25B5%25EC%258B%259D_%25EC%259D%25BC%25EB%259F%25AC%25EC%258A%25A4%25ED%258A%25B8.png%2Frevision%2Flatest%3Fcb%3D20170409104423%26path-prefix%3Dko&type=fff208_208” width=”150”/> | <img src=”https://search.pstatic.net/sunny/?src=https%3A%2F%2Fi.namu.wiki%2Fi%2Fpt5Uc0VeUmLRRS4_KhEXwvB5W57uLP_l9jXa9iC2BRwjeNt8Oj-dH-8rxV3POZHSfLCpgi2uh6-y5iVqBGKw-g.webp&type=ff332_332” width=”150”/> | <img src=”https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzA3MDJfMTM0%2FMDAxNjg4Mjk4NzI0NjEz.9n6for1ufGW4Mbn0tOoxWS_WEUPasTLBV9Okn1fFkMYg.tm9oj9RfpVwmSCpbeCGQiDhYiqiAc9SYGBJDwfCK46og.PNG.wsj2264%2F20230702_205109.png&type=ff332_332” width=”150”/> |
+| 깃허브 | [@kku9](https://github.com/kku9) | [@watersooo](https://github.com/watersooo) | [@Jangmaker](https://github.com/Jangmaker) |
+| 역할 | devops |  |  |
+
+| 이름 | 송태훈 | 류영수 |
+| --- | --- | --- |
+|  | <img src=”https://search.pstatic.net/sunny/?src=http%3A%2F%2Fkr-cdn.spooncast.net%2Fprofiles%2FP%2Fqz85QPizDVDoV%2F12850269-30b5-4bec-86fc-3f547febe78b.jpg&type=sc960_832” width=”150”/> | <img src=”https://upload.wikimedia.org/wikipedia/ko/e/e5/FinnAdventureTime.png” width=”150”/> |
+| 깃허브 | [@SonTaeHoon](https://github.com/SongTaeHoon) | [@ryuyoungsu](https://github.com/ryuyoungsu) |
+| 역할 |  |  |
