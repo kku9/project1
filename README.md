@@ -25,6 +25,6 @@
 
 | 이름 | 송태훈 | 류영수 |
 | --- | --- | --- |
-|  | <img src=”https://search.pstatic.net/sunny/?src=http%3A%2F%2Fkr-cdn.spooncast.net%2Fprofiles%2FP%2Fqz85QPizDVDoV%2F12850269-30b5-4bec-86fc-3f547febe78b.jpg&type=sc960_832” width=”150”/> | <img src=”https://upload.wikimedia.org/wikipedia/ko/e/e5/FinnAdventureTime.png” width=”150”/> |
+|  | <img src=”https://www.notion.so/ArgoCd-Github-done-ef2c54191715413eb6a3317de089ac81?pvs=4#5fc15036c92a44ab95a4c8c43572843b” width=”150”/> | <img src=”https://upload.wikimedia.org/wikipedia/ko/e/e5/FinnAdventureTime.png” width=”150”/> |
 | 깃허브 | [@SonTaeHoon](https://github.com/SongTaeHoon) | [@ryuyoungsu](https://github.com/ryuyoungsu) |
 | 역할 |  |  |
