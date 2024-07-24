@@ -27,7 +27,7 @@
 | 이름 | 송태훈 | 류영수 |
 | :------------: | :------------: | :------------: |
 |  | <img src="https://avatars.githubusercontent.com/u/106800250?v=4" width="150"/> | <img src="https://avatars.githubusercontent.com/u/121004134?v=4" width="150"/> |
-| 깃허브 | [@SonTaeHoon](https://github.com/SongTaeHoon) | [@ryuyoungsu](https://github.com/ryuyoungsu) |
+| 깃허브 | [@SongTaeHoon](https://github.com/SongTaeHoon) | [@ryuyoungsu](https://github.com/ryuyoungsu) |
 | 역할 | DevOps | DevOps |
 
 
