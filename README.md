@@ -21,11 +21,11 @@
 | :------------: | :------------: | :------------: | :------------: |
 |  | <img src="https://avatars.githubusercontent.com/u/174182609?v=4" width="150" /> | <img src= "https://avatars.githubusercontent.com/u/175070823?v=4" width="150"/> | <img src= "https://avatars.githubusercontent.com/u/174423823?v=4" width="150"/> |
 | 깃허브 | [@kku9](https://github.com/kku9) | [@watersooo](https://github.com/watersooo) | [@Jangmaker](https://github.com/Jangmaker) |
-| 역할 | DEVOPS | DEVOPS | DEVOPS |
+| 역할 | DevOps | DevOps | DevOps |
 |  |  |  |  |
 
 | 이름 | 송태훈 | 류영수 |
 | :------------: | :------------: | :------------: |
 |  | <img src="https://avatars.githubusercontent.com/u/106800250?v=4" width="150"/> | <img src="https://avatars.githubusercontent.com/u/121004134?v=4" width="150"/> |
 | 깃허브 | [@SonTaeHoon](https://github.com/SongTaeHoon) | [@ryuyoungsu](https://github.com/ryuyoungsu) |
-| 역할 | DEVOPS | DEVOPS |
+| 역할 | DevOps | DevOps |
