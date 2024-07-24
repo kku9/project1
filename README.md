@@ -65,8 +65,6 @@
  <td>
   <img src="https://img.shields.io/badge/MYSQL-4479A1?style=for-the-badge&logo=MYSQL&logoColor=ffffff"/>
   <img src="https://img.shields.io/badge/docker-2496ED?style=for-the-badge&logo=docker&logoColor=ffffff"/>
-  <img src="https://img.shields.io/badge/jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=ffffff"/>
-  <img src="https://img.shields.io/badge/kong-003459?style=for-the-badge&logo=kong&logoColor=ffffff"/>
   
 <tr>
  <td align="center">협업툴</td>
