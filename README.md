@@ -19,7 +19,7 @@
 
 | 이름 | 구경범 | 노현수 | 장정원 |
 | :------------: | :------------: | :------------: | :------------: |
-|  | <img src="" width="150" /> | <img src= "https://avatars.githubusercontent.com/u/175070823?v=4" width="150"/> | <img src= "https://avatars.githubusercontent.com/u/174423823?v=4" width="150"/> |
+|  | <img src="https://avatars.githubusercontent.com/u/174182609?v=4" width="150" /> | <img src= "https://avatars.githubusercontent.com/u/175070823?v=4" width="150"/> | <img src= "https://avatars.githubusercontent.com/u/174423823?v=4" width="150"/> |
 | 깃허브 | [@kku9](https://github.com/kku9) | [@watersooo](https://github.com/watersooo) | [@Jangmaker](https://github.com/Jangmaker) |
 | 역할 | DEVOPS | DEVOPS | DEVOPS |
 |  |  |  |  |
