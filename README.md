@@ -1,7 +1,7 @@
 ![logo](https://github.com/user-attachments/assets/ea4b8a5a-c239-402f-8829-4a4bb2ee507b)
 
 ---
-## 배포주소
+## ✈ 배포주소
 
 개발 버전 : version 1.0.0.0 </br>
 도메인 주소 : www.watersooo.shop </br>
@@ -29,3 +29,8 @@
 |  | <img src="https://avatars.githubusercontent.com/u/106800250?v=4" width="150"/> | <img src="https://avatars.githubusercontent.com/u/121004134?v=4" width="150"/> |
 | 깃허브 | [@SonTaeHoon](https://github.com/SongTaeHoon) | [@ryuyoungsu](https://github.com/ryuyoungsu) |
 | 역할 | DevOps | DevOps |
+
+
+
+
+
