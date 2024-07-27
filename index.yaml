@@ -1,0 +1,18 @@
+apiVersion: v1
+entries:
+  project:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-07-27T18:51:59.137985462+09:00"
+    description: 3-Tier project for kubernetes
+    digest: 341b216a31204485170d7075813222dd17d73e97edc17e0abb83d28fb1bab0f4
+    home: https://github.com/kku9/project1/tree/main
+    kubeVersion: '>=1.28.11'
+    name: project
+    sources:
+    - https://github.com/kku9/project1.git
+    type: application
+    urls:
+    - https://kku9.github.io/project1/project-1.0.0.tgz
+    version: 1.0.0
+generated: "2024-07-27T18:51:59.135419099+09:00"
