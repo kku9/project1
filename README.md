@@ -86,4 +86,11 @@
 
 
 
+## 🧱아키텍처
+![architecture.PNG](./kku9/architecture.PNG)
+
+![podarchitecture.PNG](./kku9/podarchitecture.PNG)
+
+![dockerarchitecture.PNG](./kku9/dockerarchitecture.PNG)
+
 
