@@ -87,10 +87,10 @@
 
 
 ## 🧱아키텍처
-![architecture.PNG](./kku9/architecture.PNG)
+![architecture.PNG](MyHomeGYM/architecture.png)
 
-![podarchitecture.PNG](./kku9/podarchitecture.PNG)
+![podarchitecture.PNG](MyHomeGYM/dockerarchitecture.png)
 
-![dockerarchitecture.PNG](./kku9/dockerarchitecture.PNG)
+![dockerarchitecture.PNG](MyHomeGYM/podarchitecture.png)
 
 
