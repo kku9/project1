@@ -97,8 +97,8 @@
 ## 🗂ERD
 --ERD
 
-![erdtables.png](MyHomeGYM/erdtables.png)
+![erdtables.png](MyHomeGYM/erdtables.png)		![erdproducts1.png](MyHomeGYM/erdproducts1.png)	
 
-![erdproducts1.png](MyHomeGYM/erdproducts1.png)		![erdproducts2.png](MyHomeGYM/erdproducts2.png)		![erdproducts3.png](MyHomeGYM/erdproducts3.png)
+![erdproducts2.png](MyHomeGYM/erdproducts2.png)		![erdproducts3.png](MyHomeGYM/erdproducts3.png)
 
 
