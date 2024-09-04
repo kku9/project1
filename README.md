@@ -1,5 +1,7 @@
-![logo](https://github.com/user-attachments/assets/ea4b8a5a-c239-402f-8829-4a4bb2ee507b)
+한정교 first project
 
+![logo](https://github.com/user-attachments/assets/ea4b8a5a-c239-402f-8829-4a4bb2ee507b)
+ 
 ---
 ## ✈ 배포주소
 
